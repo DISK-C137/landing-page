@@ -1,0 +1,41 @@
+h1 {
+    font-weight: bold;
+    color: #2b2b2b;
+  }
+  
+  p.lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  p.head {
+    font-size: 0.6rem;
+    font-style: italic;
+    color: #6c757d;
+  }
+
+  #container1{
+    background-color: #2b2b2b;
+    padding: 5rem;
+  }
+
+  #head1{
+    padding-top:8rem;
+    padding-bottom:8rem;
+  }
+
+  .card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /* จำนวนบรรทัดที่จะแสดง */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .bg-image {
+    /* background-image: url('@/assets/—Pngtree—trendy geometric composition of silver_1354658.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%; */
+  }
